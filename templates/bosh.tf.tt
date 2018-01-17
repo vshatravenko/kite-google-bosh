@@ -1,0 +1,9 @@
+module "bosh" {
+  source                = "github.com/rubykube/kite-google-bosh"
+  project               = "<%= @vars['project'] %>"
+  region                = "<%= @vars['region'] %>"
+  zone                  = "<%= @vars['zone'] %>"
+  vpc_name              = "<%= @vars['vpc_name'] %>"
+  platform_subnet_name  = "<%= @vars['platform_subnet_name'] %>"
+  subnet_cidr           = "<%= @vars['subnet_cidr'] %>"
+}

@@ -1,0 +1,10 @@
+name: "kite-google-bosh"
+variables:
+  project: "example-project"
+  region: "us-west1"
+  zone: "us-west1-c"
+  vpc_name: "example-cloud"
+  platform_subnet_name: "platform-example"
+  subnet_cidr: "10.0.20.0/24"
+  public_key: "~/.ssh/key.pub"
+
